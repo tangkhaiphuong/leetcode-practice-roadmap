@@ -1,0 +1,1 @@
+../05-two-pointers/072-sum-of-square-numbers.go

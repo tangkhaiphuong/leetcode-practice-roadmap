@@ -1,0 +1,111 @@
+### macOS
+# Finder metadata
+.DS_Store
+
+# Thumbnails
+._*
+
+# Custom folder icons
+Icon
+
+# Volume root files
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+### Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### Go
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and coverage
+*.test
+*.out
+coverage.out
+coverage.txt
+profile.out
+
+# Go workspace and tool dirs
+/bin/
+/dist/
+/tmp/
+go.work
+go.work.sum
+
+# vendor/ is usually committed for reproducibility — uncomment to ignore
+# vendor/
+
+### IDEs and editors
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Vim
+*.swp
+*.swo
+*.swn
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+.netrwhist
+tags
+
+# Emacs
+\#*\#
+.\#*
+.projectile
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+### Environment & secrets
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+
+### Claude Code (local-only state)
+.claude/settings.local.json
+.claude/.local/
+.claude-trace/
+
+### Logs
+*.log
+logs/
+
+### OS-agnostic temp / backup
+*.bak
+*.tmp
+*.orig

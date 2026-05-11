@@ -1,0 +1,1 @@
+../02-array-manipulation/052-ways-to-split-array-into-three-subarrays.go

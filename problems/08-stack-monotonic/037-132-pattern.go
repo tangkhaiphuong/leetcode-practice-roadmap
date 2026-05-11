@@ -1,0 +1,1 @@
+../02-array-manipulation/037-132-pattern.go

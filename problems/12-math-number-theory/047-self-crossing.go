@@ -1,0 +1,1 @@
+../02-array-manipulation/047-self-crossing.go
